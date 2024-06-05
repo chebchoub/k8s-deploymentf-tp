@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: client-service
-          image: client-service:latest
-          imagePullPolicy: IfNotPresent
+          image: aymeniset/client-service:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8083
 

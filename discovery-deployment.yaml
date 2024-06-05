@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
         - name: discovery-service
-          image: discovery-service:latest
-          imagePullPolicy: IfNotPresent
+          image: aymeniset/discovery-service:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8761
 

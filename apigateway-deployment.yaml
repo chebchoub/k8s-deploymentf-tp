@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: apigateway-service
-          image: apigateway-service:latest
-          imagePullPolicy: IfNotPresent
+          image: aymeniset/apigateway-service:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
 

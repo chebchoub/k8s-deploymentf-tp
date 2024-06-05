@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: technician-service
-          image: technician-service:latest
-          imagePullPolicy: IfNotPresent
+          image: aymeniset/technician-service:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8085
 
